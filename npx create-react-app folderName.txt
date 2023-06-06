@@ -1,0 +1,10 @@
+cmd창 open-> 폴더 만들고 싶은 위치로 이동(cd 폴더명)
+1. npx create-react-app folderName
+폴더 생성되면 
+2. code folderName
+vscode가 열림
+
+vscode에서 terminal 열기
+3. npm run
+4. npm start
+react page 열림
