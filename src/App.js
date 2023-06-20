@@ -35,7 +35,7 @@ function App() {
       {loading ? (
         <strong>Loading...</strong>
         ) : (
-          <select onChange={onChangeSelect} value={selectValue}>
+          <select onChange={onChangeSelect}>
             {coins.map((coin) => (
               <option key={coin.id} value={coin.quotes.USD.price}>
                 {coin.name} ({coin.symbol}): ${coin.quotes.USD.price}
